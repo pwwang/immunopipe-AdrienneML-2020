@@ -1,0 +1,3 @@
+When	nCells	nGenes
+Before_QC	81490	33538
+After_Gene_QC	70238	33538

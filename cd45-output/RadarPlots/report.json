@@ -1,0 +1,37 @@
+{
+  "Figure 1G": {
+    "#": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Radar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/RadarPlots/samples_CD45.seurat.radar_plots/DEFAULT/Figure_1G/plot.png"
+              }
+            ]
+          },
+          {
+            "name": "Count Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/RadarPlots/samples_CD45.seurat.radar_plots/DEFAULT/Figure_1G/counts.tsv"
+              }
+            ]
+          },
+          {
+            "name": "Percentage Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/RadarPlots/samples_CD45.seurat.radar_plots/DEFAULT/Figure_1G/percentages.tsv"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

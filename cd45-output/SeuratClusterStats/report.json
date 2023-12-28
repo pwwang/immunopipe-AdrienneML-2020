@@ -1,0 +1,219 @@
+{
+  "Number of cells in each cluster": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number of cells per cluster"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Bar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/stats/number_of_cells_in_each_cluster.bar.png"
+              }
+            ]
+          },
+          {
+            "name": "Pie Chart",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/stats/number_of_cells_in_each_cluster.pie.png"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig 1F. Cell fraction in each Sample by cluster": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number/faction of cells per cluster, by Sample"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Bar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/stats/fig_1f_cell_fraction_in_each_sample_by_cluster.bar.png"
+              }
+            ]
+          },
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/stats/fig_1f_cell_fraction_in_each_sample_by_cluster.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig 1G. Fraction of cells per Diagnosis": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number/faction of cells per cluster, by Diagnosis"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Bar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/stats/fig_1g_fraction_of_cells_per_diagnosis.bar.png"
+              }
+            ]
+          },
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/stats/fig_1g_fraction_of_cells_per_diagnosis.txt"
+              }
+            ]
+          },
+          {
+            "name": "Box Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/stats/fig_1g_fraction_of_cells_per_diagnosis.box.png"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Number of genes expressed in each cluster": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number of genes expressed in each seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/ngenes/number_of_genes_expressed_in_each_cluster.boxplot.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 1D. Canonical marker genes": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "violinplots for selected features, by seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/features/fig_1d_canonical_marker_genes..png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S1C. DEGs across clusters": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Average expression values for selected features, by seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/features/fig_s1c_degs_across_clusters.avgheatmap.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 1C. UMAP": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/dimplots/fig_1c_umap.dim.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 1E. Diagnosis on UMAP": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for Diagnosis"
+          },
+          {
+            "kind": "image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/dimplots/fig_1e_diagnosis_on_umap.dim.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S1D. Diagnosis on UMAP Separated (top)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/dimplots/fig_s1d_diagnosis_on_umap_separated_top.dim.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S1D. Samples C1, C2 and C3 on UMAP (bottom)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/dimplots/fig_s1d_samples_c1_c2_and_c3_on_umap_bottom.dim.png"
+          }
+        ]
+      }
+    }
+  }
+}

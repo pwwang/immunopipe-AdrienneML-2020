@@ -1,0 +1,527 @@
+{
+  "Exploratory Analysis": {
+    "CDR3 length distribution": {
+      "#": {
+        "table_of_images": [
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/len/DEFAULT.png",
+            "name": {}
+          }
+        ]
+      }
+    },
+    "Clonotype volume (Number of clonotypes)": {
+      "#": {
+        "table_of_images": [
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/volume/DEFAULT.png",
+            "name": {}
+          }
+        ]
+      }
+    },
+    "Clonotype abundances": {
+      "#": {
+        "table_of_images": [
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/count/DEFAULT.png",
+            "name": {}
+          }
+        ]
+      }
+    }
+  },
+  "Clonality Analysis": {
+    "Top Clones": {
+      "#": {
+        "table_of_images": [
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/top_clones/DEFAULT.png",
+            "name": {}
+          }
+        ]
+      }
+    },
+    "Rare Clones": {
+      "#": {
+        "table_of_images": [
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/rare_clones/DEFAULT.png",
+            "name": {}
+          }
+        ]
+      }
+    },
+    "Clonal Space Homeostasis": {
+      "#": {
+        "table_of_images": [
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/homeo_clones/DEFAULT.png",
+            "name": {}
+          }
+        ]
+      }
+    }
+  },
+  "Repertoire Overlaps": {
+    "public": {
+      "#": {
+        "flat": [
+          {
+            "kind": "table_image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/overlap/public/public.png",
+            "descr": "Repertoire overlap is the most common approach to measure repertoire similarity, using method <code>public<\/code>, number of public (shared) clonotypes, a classic measure of overlap similarity"
+          }
+        ]
+      }
+    }
+  },
+  "Gene Usage": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "table_image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/gene_usage/DEFAULT/DEFAULT.png",
+            "descr": "Distribution of known gene segments following the <a href=\"http://www.imgt.org/IMGTrepertoire/LocusGenes/\" target=\"_blank\">IMGT<\/a> nomenclature."
+          }
+        ]
+      }
+    }
+  },
+  "Spectratyping": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Spectratype is a useful way to represent distributions of genes per sequence length."
+          }
+        ]
+      }
+    },
+    "By_Clonotype": {
+      "#": {
+        "table_of_images": [
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByClonotype/C1.spect",
+            "name": "C1"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByClonotype/C3.spect",
+            "name": "C3"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByClonotype/C4.spect",
+            "name": "C4"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByClonotype/C5.spect",
+            "name": "C5"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByClonotype/C6.spect",
+            "name": "C6"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByClonotype/C7.spect",
+            "name": "C7"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByClonotype/C8.spect",
+            "name": "C8"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByClonotype/CT1.spect",
+            "name": "CT1"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByClonotype/CT2.spect",
+            "name": "CT2"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByClonotype/CT3.spect",
+            "name": "CT3"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByClonotype/CT4.spect",
+            "name": "CT4"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByClonotype/CT5.spect",
+            "name": "CT5"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByClonotype/CT6.spect",
+            "name": "CT6"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByClonotype/CT7.spect",
+            "name": "CT7"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByClonotype/CT8.spect",
+            "name": "CT8"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByClonotype/NC1.spect",
+            "name": "NC1"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByClonotype/NC2.spect",
+            "name": "NC2"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByClonotype/NC3.spect",
+            "name": "NC3"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByClonotype/NC4.spect",
+            "name": "NC4"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByClonotype/NC5.spect",
+            "name": "NC5"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByClonotype/NC6.spect",
+            "name": "NC6"
+          }
+        ]
+      }
+    },
+    "By_Num_Clones": {
+      "#": {
+        "table_of_images": [
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByNumClones/C1.spect",
+            "name": "C1"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByNumClones/C3.spect",
+            "name": "C3"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByNumClones/C4.spect",
+            "name": "C4"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByNumClones/C5.spect",
+            "name": "C5"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByNumClones/C6.spect",
+            "name": "C6"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByNumClones/C7.spect",
+            "name": "C7"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByNumClones/C8.spect",
+            "name": "C8"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByNumClones/CT1.spect",
+            "name": "CT1"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByNumClones/CT2.spect",
+            "name": "CT2"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByNumClones/CT3.spect",
+            "name": "CT3"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByNumClones/CT4.spect",
+            "name": "CT4"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByNumClones/CT5.spect",
+            "name": "CT5"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByNumClones/CT6.spect",
+            "name": "CT6"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByNumClones/CT7.spect",
+            "name": "CT7"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByNumClones/CT8.spect",
+            "name": "CT8"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByNumClones/NC1.spect",
+            "name": "NC1"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByNumClones/NC2.spect",
+            "name": "NC2"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByNumClones/NC3.spect",
+            "name": "NC3"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByNumClones/NC4.spect",
+            "name": "NC4"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByNumClones/NC5.spect",
+            "name": "NC5"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/spectratyping/ByNumClones/NC6.spect",
+            "name": "NC6"
+          }
+        ]
+      }
+    }
+  },
+  "Diversity Estimation": {
+    "gini": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Diversity estimation using <code>gini<\/code>: the Gini coefficient measures the inequality among values of a frequency distribution (for example levels of income). A Gini coefficient of zero expresses perfect equality, where all values are the same (for example, where everyone has the same income). A Gini coefficient of one (or 100 percents ) expresses maximal inequality among values (for example where only one person has all the income)."
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Diversity Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/diversity/gini/diversity.png"
+              }
+            ]
+          },
+          {
+            "name": "Diversity Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/diversity/gini/diversity.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Kmer and sequence motif analysis": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Counting k-mer occurrences"
+          }
+        ]
+      },
+      "Kmer sequence occurrences": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "K-mer sequence occurrences and motif analysis of CDR3 amino acid sequences"
+          },
+          {
+            "kind": "image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/kmer/DEFAULT/Allsamples.png"
+          }
+        ]
+      },
+      "Motif analysis": {
+        "flat": [],
+        "table_of_images": [
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/kmer/DEFAULT/c1-profile.png",
+            "name": "C1"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/kmer/DEFAULT/c3-profile.png",
+            "name": "C3"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/kmer/DEFAULT/c4-profile.png",
+            "name": "C4"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/kmer/DEFAULT/c5-profile.png",
+            "name": "C5"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/kmer/DEFAULT/c6-profile.png",
+            "name": "C6"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/kmer/DEFAULT/c7-profile.png",
+            "name": "C7"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/kmer/DEFAULT/c8-profile.png",
+            "name": "C8"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/kmer/DEFAULT/ct1-profile.png",
+            "name": "CT1"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/kmer/DEFAULT/ct2-profile.png",
+            "name": "CT2"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/kmer/DEFAULT/ct3-profile.png",
+            "name": "CT3"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/kmer/DEFAULT/ct4-profile.png",
+            "name": "CT4"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/kmer/DEFAULT/ct5-profile.png",
+            "name": "CT5"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/kmer/DEFAULT/ct6-profile.png",
+            "name": "CT6"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/kmer/DEFAULT/ct7-profile.png",
+            "name": "CT7"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/kmer/DEFAULT/ct8-profile.png",
+            "name": "CT8"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/kmer/DEFAULT/nc1-profile.png",
+            "name": "NC1"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/kmer/DEFAULT/nc2-profile.png",
+            "name": "NC2"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/kmer/DEFAULT/nc3-profile.png",
+            "name": "NC3"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/kmer/DEFAULT/nc4-profile.png",
+            "name": "NC4"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/kmer/DEFAULT/nc5-profile.png",
+            "name": "NC5"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/kmer/DEFAULT/nc6-profile.png",
+            "name": "NC6"
+          }
+        ]
+      }
+    }
+  },
+  "V-J Junction Circos Plots": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "V-J usage plot displaying the frequency of various V-J junctions."
+          }
+        ],
+        "table_of_images": [
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/vj_junc/DEFAULT/c1.png",
+            "name": "C1"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/vj_junc/DEFAULT/c3.png",
+            "name": "C3"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/vj_junc/DEFAULT/c4.png",
+            "name": "C4"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/vj_junc/DEFAULT/c5.png",
+            "name": "C5"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/vj_junc/DEFAULT/c6.png",
+            "name": "C6"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/vj_junc/DEFAULT/c7.png",
+            "name": "C7"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/vj_junc/DEFAULT/c8.png",
+            "name": "C8"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/vj_junc/DEFAULT/ct1.png",
+            "name": "CT1"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/vj_junc/DEFAULT/ct2.png",
+            "name": "CT2"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/vj_junc/DEFAULT/ct3.png",
+            "name": "CT3"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/vj_junc/DEFAULT/ct4.png",
+            "name": "CT4"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/vj_junc/DEFAULT/ct5.png",
+            "name": "CT5"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/vj_junc/DEFAULT/ct6.png",
+            "name": "CT6"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/vj_junc/DEFAULT/ct7.png",
+            "name": "CT7"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/vj_junc/DEFAULT/ct8.png",
+            "name": "CT8"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/vj_junc/DEFAULT/nc1.png",
+            "name": "NC1"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/vj_junc/DEFAULT/nc2.png",
+            "name": "NC2"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/vj_junc/DEFAULT/nc3.png",
+            "name": "NC3"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/vj_junc/DEFAULT/nc4.png",
+            "name": "NC4"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/vj_junc/DEFAULT/nc5.png",
+            "name": "NC5"
+          },
+          {
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/Immunarch/samples_CD3.immunarch.immunarch/vj_junc/DEFAULT/nc6.png",
+            "name": "NC6"
+          }
+        ]
+      }
+    }
+  }
+}
