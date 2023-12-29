@@ -1,0 +1,179 @@
+{
+  "Fig S2D. Fraction of cells per Diagnosis": {
+    "#": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Radar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/DEFAULT/Fig_S2D_Fraction_of_cells_per_Diagnosis/plot.png"
+              }
+            ]
+          },
+          {
+            "name": "Count Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "index_col": 0
+                },
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/DEFAULT/Fig_S2D_Fraction_of_cells_per_Diagnosis/counts.tsv"
+              }
+            ]
+          },
+          {
+            "name": "Percentage Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "index_col": 0
+                },
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/DEFAULT/Fig_S2D_Fraction_of_cells_per_Diagnosis/percentages.tsv"
+              }
+            ]
+          },
+          {
+            "name": "Barplot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/DEFAULT/Fig_S2D_Fraction_of_cells_per_Diagnosis/barplot.png"
+              }
+            ]
+          },
+          {
+            "name": "Tests",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/DEFAULT/Fig_S2D_Fraction_of_cells_per_Diagnosis/tests.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig 2E. Fraction of cells per Diagnosis (CD8 sub-clusters)": {
+    "#": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Radar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/DEFAULT/Fig_2E_Fraction_of_cells_per_Diagnosis_CD8_subclusters/plot.png"
+              }
+            ]
+          },
+          {
+            "name": "Count Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "index_col": 0
+                },
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/DEFAULT/Fig_2E_Fraction_of_cells_per_Diagnosis_CD8_subclusters/counts.tsv"
+              }
+            ]
+          },
+          {
+            "name": "Percentage Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "index_col": 0
+                },
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/DEFAULT/Fig_2E_Fraction_of_cells_per_Diagnosis_CD8_subclusters/percentages.tsv"
+              }
+            ]
+          },
+          {
+            "name": "Barplot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/DEFAULT/Fig_2E_Fraction_of_cells_per_Diagnosis_CD8_subclusters/barplot.png"
+              }
+            ]
+          },
+          {
+            "name": "Tests",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/DEFAULT/Fig_2E_Fraction_of_cells_per_Diagnosis_CD8_subclusters/tests.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig 3D. Fraction of cells per Diagnosis (CD4 sub-clusters)": {
+    "#": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Radar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/DEFAULT/Fig_3D_Fraction_of_cells_per_Diagnosis_CD4_subclusters/plot.png"
+              }
+            ]
+          },
+          {
+            "name": "Count Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "index_col": 0
+                },
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/DEFAULT/Fig_3D_Fraction_of_cells_per_Diagnosis_CD4_subclusters/counts.tsv"
+              }
+            ]
+          },
+          {
+            "name": "Percentage Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "index_col": 0
+                },
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/DEFAULT/Fig_3D_Fraction_of_cells_per_Diagnosis_CD4_subclusters/percentages.tsv"
+              }
+            ]
+          },
+          {
+            "name": "Barplot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/DEFAULT/Fig_3D_Fraction_of_cells_per_Diagnosis_CD4_subclusters/barplot.png"
+              }
+            ]
+          },
+          {
+            "name": "Tests",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/DEFAULT/Fig_3D_Fraction_of_cells_per_Diagnosis_CD4_subclusters/tests.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

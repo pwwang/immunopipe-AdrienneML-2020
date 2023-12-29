@@ -54,11 +54,9 @@ table = true
 frac = true
 transpose = true
 
-[SeuratClusterStats.envs.stats."Fig 1G. Fraction of cells per Diagnosis"]
-group-by = "Diagnosis"
-table = true
-frac = true
-box = true
+[RadarPlots.envs.cases."Fig 1G. Fraction of cells per Diagnosis"]
+by = "Diagnosis"
+breakdown = "Sample"
 
 [SeuratClusterStats.envs.features."Fig S1C. DEGs across clusters"]
 kind = "avgheatmap"

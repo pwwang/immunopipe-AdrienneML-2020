@@ -63,47 +63,6 @@
       }
     }
   },
-  "Fig 1G. Fraction of cells per Diagnosis": {
-    "#": {
-      "#": {
-        "flat": [
-          {
-            "kind": "descr",
-            "content": "Plots showing the number/faction of cells per cluster, by Diagnosis"
-          }
-        ],
-        "tabs": [
-          {
-            "name": "Bar Plot",
-            "contents": [
-              {
-                "kind": "image",
-                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/stats/fig_1g_fraction_of_cells_per_diagnosis.bar.png"
-              }
-            ]
-          },
-          {
-            "name": "Table",
-            "contents": [
-              {
-                "kind": "table",
-                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/stats/fig_1g_fraction_of_cells_per_diagnosis.txt"
-              }
-            ]
-          },
-          {
-            "name": "Box Plot",
-            "contents": [
-              {
-                "kind": "image",
-                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/stats/fig_1g_fraction_of_cells_per_diagnosis.box.png"
-              }
-            ]
-          }
-        ]
-      }
-    }
-  },
   "Number of genes expressed in each cluster": {
     "#": {
       "#": {

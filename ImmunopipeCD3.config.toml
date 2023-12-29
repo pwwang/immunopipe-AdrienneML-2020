@@ -76,11 +76,10 @@ features = [
     "STMN1", "GZMH", "GZMB", "TNFSF9", "GZMK", "XCL2", "XCL1", "KLRC2", "KIR2DL4",
 ]
 
-[SeuratClusterStats.envs.stats."Fig S2D. Fraction of cells per Diagnosis"]
-group-by = "Diagnosis"
-table = true
-frac = true
-box = true
+[RadarPlots.envs.cases."Fig S2D. Fraction of cells per Diagnosis"]
+by = "Diagnosis"
+breakdown = "Sample"
+test = "wilcox"
 
 [SeuratClusterStats.envs.dimplots."Fig S2E. Diagnosis on UMAP"]
 group-by = "Diagnosis"
@@ -128,11 +127,9 @@ frac = true
 transpose = true
 ident = "cd8_subcluster"
 
-[SeuratClusterStats.envs.stats."Fig 2E. Fraction of cells per Diagnosis (CD8 sub-clusters)"]
-group-by = "Diagnosis"
-table = true
-frac = true
-box = true
+[RadarPlots.envs.cases."Fig 2E. Fraction of cells per Diagnosis (CD8 sub-clusters)"]
+by = "Diagnosis"
+breakdown = "Sample"
 ident = "cd8_subcluster"
 
 [SeuratClusterStats.envs.features."Fig 2F. GZMB expression by Diagnosis (CD8 sub-clusters)"]
@@ -195,11 +192,9 @@ features = [
 group-by = "Diagnosis"
 ident = "cd4_subcluster"
 
-[SeuratClusterStats.envs.stats."Fig 3D. Fraction of cells per Diagnosis (CD4 sub-clusters)"]
-group-by = "Diagnosis"
-table = true
-frac = true
-box = true
+[RadarPlots.envs.cases."Fig 3D. Fraction of cells per Diagnosis (CD4 sub-clusters)"]
+by = "Diagnosis"
+breakdown = "Sample"
 ident = "cd4_subcluster"
 
 [SeuratClusterStats.envs.dimplots."Fig 3L. Diagnosis on UMAP (Treg sub-clusters)"]
@@ -268,11 +263,9 @@ kind = "feature"
 features = ["FOXP3"]
 ident = "treg_subcluster"
 
-[SeuratClusterStats.envs.stats."Fig S4H. Cluster Composition by Diagnosis (Treg sub-clusters)"]
-group-by = "Diagnosis"
-table = true
-frac = true
-box = true
+[RadarPlots.envs.stats."Fig S4H. Cluster Composition by Diagnosis (Treg sub-clusters)"]
+by = "Diagnosis"
+breakdown = "Sample"
 ident = "treg_subcluster"
 
 [SeuratClusterStats.envs.stats."Fig S4I. Cluster Composition by Sample (Treg sub-clusters)"]

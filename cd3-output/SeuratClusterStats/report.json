@@ -1,45 +1,4 @@
 {
-  "Fig S2D. Fraction of cells per Diagnosis": {
-    "#": {
-      "#": {
-        "flat": [
-          {
-            "kind": "descr",
-            "content": "Plots showing the number/faction of cells per cluster, by Diagnosis"
-          }
-        ],
-        "tabs": [
-          {
-            "name": "Bar Plot",
-            "contents": [
-              {
-                "kind": "image",
-                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/fig_s2d_fraction_of_cells_per_diagnosis.bar.png"
-              }
-            ]
-          },
-          {
-            "name": "Table",
-            "contents": [
-              {
-                "kind": "table",
-                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/fig_s2d_fraction_of_cells_per_diagnosis.txt"
-              }
-            ]
-          },
-          {
-            "name": "Box Plot",
-            "contents": [
-              {
-                "kind": "image",
-                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/fig_s2d_fraction_of_cells_per_diagnosis.box.png"
-              }
-            ]
-          }
-        ]
-      }
-    }
-  },
   "Fig S2F. Cell Cluster Frequency": {
     "#": {
       "#": {
@@ -136,47 +95,6 @@
       }
     }
   },
-  "Fig 2E. Fraction of cells per Diagnosis (CD8 sub-clusters)": {
-    "#": {
-      "#": {
-        "flat": [
-          {
-            "kind": "descr",
-            "content": "Plots showing the number/faction of cells per cluster, by Diagnosis"
-          }
-        ],
-        "tabs": [
-          {
-            "name": "Bar Plot",
-            "contents": [
-              {
-                "kind": "image",
-                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/fig_2e_fraction_of_cells_per_diagnosis_cd8_subclusters.bar.png"
-              }
-            ]
-          },
-          {
-            "name": "Table",
-            "contents": [
-              {
-                "kind": "table",
-                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/fig_2e_fraction_of_cells_per_diagnosis_cd8_subclusters.txt"
-              }
-            ]
-          },
-          {
-            "name": "Box Plot",
-            "contents": [
-              {
-                "kind": "image",
-                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/fig_2e_fraction_of_cells_per_diagnosis_cd8_subclusters.box.png"
-              }
-            ]
-          }
-        ]
-      }
-    }
-  },
   "Fig S3A. Sample Composition by cluster (CD8 sub-clusters)": {
     "#": {
       "#": {
@@ -209,47 +127,6 @@
       }
     }
   },
-  "Fig 3D. Fraction of cells per Diagnosis (CD4 sub-clusters)": {
-    "#": {
-      "#": {
-        "flat": [
-          {
-            "kind": "descr",
-            "content": "Plots showing the number/faction of cells per cluster, by Diagnosis"
-          }
-        ],
-        "tabs": [
-          {
-            "name": "Bar Plot",
-            "contents": [
-              {
-                "kind": "image",
-                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/fig_3d_fraction_of_cells_per_diagnosis_cd4_subclusters.bar.png"
-              }
-            ]
-          },
-          {
-            "name": "Table",
-            "contents": [
-              {
-                "kind": "table",
-                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/fig_3d_fraction_of_cells_per_diagnosis_cd4_subclusters.txt"
-              }
-            ]
-          },
-          {
-            "name": "Box Plot",
-            "contents": [
-              {
-                "kind": "image",
-                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/fig_3d_fraction_of_cells_per_diagnosis_cd4_subclusters.box.png"
-              }
-            ]
-          }
-        ]
-      }
-    }
-  },
   "Fig S4B. Sample Composition by cluster (CD8 sub-clusters)": {
     "#": {
       "#": {
@@ -275,47 +152,6 @@
               {
                 "kind": "table",
                 "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/fig_s4b_sample_composition_by_cluster_cd8_subclusters.txt"
-              }
-            ]
-          }
-        ]
-      }
-    }
-  },
-  "Fig S4H. Cluster Composition by Diagnosis (Treg sub-clusters)": {
-    "#": {
-      "#": {
-        "flat": [
-          {
-            "kind": "descr",
-            "content": "Plots showing the number/faction of cells per cluster, by Diagnosis"
-          }
-        ],
-        "tabs": [
-          {
-            "name": "Bar Plot",
-            "contents": [
-              {
-                "kind": "image",
-                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/fig_s4h_cluster_composition_by_diagnosis_treg_subclusters.bar.png"
-              }
-            ]
-          },
-          {
-            "name": "Table",
-            "contents": [
-              {
-                "kind": "table",
-                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/fig_s4h_cluster_composition_by_diagnosis_treg_subclusters.txt"
-              }
-            ]
-          },
-          {
-            "name": "Box Plot",
-            "contents": [
-              {
-                "kind": "image",
-                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/fig_s4h_cluster_composition_by_diagnosis_treg_subclusters.box.png"
               }
             ]
           }

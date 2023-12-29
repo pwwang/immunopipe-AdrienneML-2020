@@ -1,5 +1,5 @@
 {
-  "Figure 1G": {
+  "Fig 1G. Fraction of cells per Diagnosis": {
     "#": {
       "#": {
         "tabs": [
@@ -8,7 +8,7 @@
             "contents": [
               {
                 "kind": "image",
-                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/RadarPlots/samples_CD45.seurat.radar_plots/DEFAULT/Figure_1G/plot.png"
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/RadarPlots/samples_CD45.seurat.radar_plots/DEFAULT/Fig_1G_Fraction_of_cells_per_Diagnosis/plot.png"
               }
             ]
           },
@@ -17,7 +17,10 @@
             "contents": [
               {
                 "kind": "table",
-                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/RadarPlots/samples_CD45.seurat.radar_plots/DEFAULT/Figure_1G/counts.tsv"
+                "data": {
+                  "index_col": 0
+                },
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/RadarPlots/samples_CD45.seurat.radar_plots/DEFAULT/Fig_1G_Fraction_of_cells_per_Diagnosis/counts.tsv"
               }
             ]
           },
@@ -26,7 +29,28 @@
             "contents": [
               {
                 "kind": "table",
-                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/RadarPlots/samples_CD45.seurat.radar_plots/DEFAULT/Figure_1G/percentages.tsv"
+                "data": {
+                  "index_col": 0
+                },
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/RadarPlots/samples_CD45.seurat.radar_plots/DEFAULT/Fig_1G_Fraction_of_cells_per_Diagnosis/percentages.tsv"
+              }
+            ]
+          },
+          {
+            "name": "Barplot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/RadarPlots/samples_CD45.seurat.radar_plots/DEFAULT/Fig_1G_Fraction_of_cells_per_Diagnosis/barplot.png"
+              }
+            ]
+          },
+          {
+            "name": "Tests",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/RadarPlots/samples_CD45.seurat.radar_plots/DEFAULT/Fig_1G_Fraction_of_cells_per_Diagnosis/tests.txt"
               }
             ]
           }
