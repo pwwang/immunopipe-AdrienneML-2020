@@ -1,4 +1,4 @@
-# immunopipe-ElhamA-2018
+# immunopipe-AdrienneML-2020
 
 Reanalysis of the scRNA-seq and scTCR-seq data from [Luoma, Adrienne M., et al. 2020](https://www.cell.com/cell/fulltext/S0092-8674(20)30688-7) using [immunopipe](https://github.com/pwwang/immunopipe).
 
