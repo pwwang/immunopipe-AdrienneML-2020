@@ -14,7 +14,7 @@ See `prepare-data.sh` for details.
 
 ## Configuration
 
-> [!CAUTION]
+> [!NOTE]
 > This is not a replication of the original paper, primarily due to the irreproducibility of the clustering results. This is a reanalysis of the data using [`immunopipe`](https://github.com/pwwang/immunopipe), showing the potential of the pipeline similar analyses listed in the paper.
 
 Even though the CD45+ cells are sequenced with scRNA-seq only, we can still use `immunopipe` to perform the analysis. The configuration can be found in `ImmunopipeCD45.config.toml`. The configuration for the CD3+ cells can be found in `ImmunopipeCD3.config.toml`.
