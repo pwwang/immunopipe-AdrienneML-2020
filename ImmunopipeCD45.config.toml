@@ -1,0 +1,83 @@
+name = "ImmunopipeCD45"
+outdir = "cd45-output"
+
+[SampleInfo.in]
+infile = "data/samples_CD45.txt"
+
+[SeuratPreparing.envs]
+# expecting 51,652 cells
+# cell_qc = "nFeature_RNA > 200 & percent.mt < 15"  # 56412
+# cell_qc = "nFeature_RNA > 200 & percent.mt < 12"  # 55451
+# cell_qc = "nFeature_RNA > 200 & percent.mt < 10"  # 54107
+# cell_qc = "nFeature_RNA > 200 & percent.mt < 7"  # 47824
+cell_qc = "nFeature_RNA > 200 & percent.mt < 8.5"  # 52031
+gene_qc = { min_cells = 0, excludes = ["^TR(A|B|D|G)V$", "^IG.V$"] }
+use_sct = false
+no_integration = true
+FindVariableFeatures = { nfeatures = 2000 }
+
+[SeuratClustering.envs]
+ScaleData = { vars-to-regress = [ "percent.mt" ] }
+FindNeighbors = { dims = 20 }
+# will use 16 clusters for the CD45 data
+FindClusters = { resolution = [0.45, 0.5, 0.6, 0.7, 0.65] }
+cache = "./.cluster_cache"
+
+[ClusterMarkers.envs]
+rest = { min-pct = 0.3, logfc-thresh = 0 }
+
+[SeuratClusterStats.envs.mutaters]
+SampleC123 = 'if_else(Sample %in% c("C1", "C2", "C3"), Sample, NA)'
+
+[SeuratClusterStats.envs.stats."Number of cells in each cluster"]
+pie = true
+
+[SeuratClusterStats.envs.dimplots."Fig 1C. UMAP"]
+label = true
+label-box = true
+repel = true
+
+[SeuratClusterStats.envs.features."Fig 1D. Canonical marker genes"]
+kind = "violin"
+ncol = 4
+features = [
+    "IGHA1", "IGHG2", "TPSAB1", "S100A9", "C1QC", "MS4A1", "FCER2",
+    "MEF2B", "CSF2", "IL7R", "GZMB", "MKI67", "CD4", "CD8A", "CD3D",
+]
+
+[SeuratClusterStats.envs.dimplots."Fig 1E. Diagnosis on UMAP"]
+group-by = "Diagnosis"
+
+[SeuratClusterStats.envs.stats."Fig 1F. Cell fraction in each Sample by cluster"]
+group-by = "Sample"
+table = true
+frac = true
+transpose = true
+
+[RadarPlots.envs.cases."Fig 1G. Fraction of cells per Diagnosis"]
+by = "Diagnosis"
+breakdown = "Sample"
+
+[SeuratClusterStats.envs.features."Fig S1C. DEGs across clusters"]
+kind = "avgheatmap"
+features = [
+    "IGLL5", "IGLC2", "TPSAB1", "TPSAB1", "TPSB2", "CPA3", "CLU", "HPGDS", "VWA5A",
+    "TPSD1", "HPGD", "CD9", "MS4A2", "LYZ", "CST3", "C1QC", "C1QA", "C1QB", "S100A9",
+    "S100A8", "IL1B", "AIF1", "TYROBP", "MS4A1", "VPREB3", "HLA-DRA", "CD83", "BANK1",
+    "HLA-DQA1", "SMIM14", "HLA-DPB1", "TCL1A", "FCER2", "MEF2B", "RGS13", "ELL3",
+    "LRMP", "MARCKSL1", "AREG", "CSF2", "KRT86", "LINC00299", "LST1", "XCL1", "IL7R",
+    "LTB", "XCL2", "GNLY", "NKG7", "KLRD1", "TRDC", "IL2RB", "CCL3", "CCL4", "TNF",
+    "KLRB1", "ANXA1", "CD40LG", "CTLA4", "SPOCK2", "ICOS", "CCR7", "PASK", "TNFRSF4",
+    "GZMA", "HOPX", "KIR2DL4", "GZMK", "CCL4L2", "GZMH", "IFNG", "CD8A", "CD8B",
+    "GZMB", "LINC02446", "LAG3", "ZNF683", "STMN1", "HIST1H4C", "TUBA1B", "HMGB2",
+    "TUBB", "HMGN2", "TYMS", "H2AFZ", "UBE2C", "MKI67",
+]
+
+
+[SeuratClusterStats.envs.dimplots."Fig S1D. Diagnosis on UMAP Separated (top)"]
+split-by = "Diagnosis"
+devpars = { width = 1800 }
+
+[SeuratClusterStats.envs.dimplots."Fig S1D. Samples C1, C2 and C3 on UMAP (bottom)"]
+split-by = "SampleC123"
+devpars = { width = 1800 }
