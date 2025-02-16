@@ -1,0 +1,632 @@
+{
+  "Cluster - 0": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/0/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/0"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster - 1": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/1/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/1"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster - 10": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/10/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/10"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster - 11": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/11/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/11"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster - 12": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/12/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/12"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster - 13": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/13/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/13"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster - 14": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/14/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/14"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster - 15": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/15/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/15"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster - 16": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/16/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/16"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster - 17": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/17/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/17"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster - 18": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/18/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/18"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster - 19": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/19/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/19"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster - 2": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/2/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/2"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster - 20": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/20/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/20"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster - 3": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/3/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/3"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster - 4": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/4/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/4"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster - 5": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/5/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/5"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster - 6": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/6/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/6"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster - 7": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/7/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/7"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster - 8": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/8/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/8"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster - 9": {
+    "Top Expressing Genes": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Top 250 expressing genes"
+          },
+          {
+            "kind": "table",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/9/exprn.txt"
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Enrichment analysis for the top 250 expressing genes"
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-AdrienneML-2020/cd45-output/TopExpressingGenes/samples_CD45.seurat.top_expressing_genes/Cluster/9"
+          }
+        ]
+      }
+    }
+  }
+}

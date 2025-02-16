@@ -1,0 +1,203 @@
+{
+  "Clustree plots": {
+    "#": {
+      "#": {
+        "table_of_images": [
+          {
+            "kind": "table_image",
+            "src": "/workdir/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/clustrees/seurat_clusters.clustree.png",
+            "download": "/workdir/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/clustrees/seurat_clusters.clustree.pdf",
+            "name": "seurat_clusters",
+            "descr": "Resolutions: 0.45, 0.5, 0.6, 0.7, 0.65; resolution used: 0.65"
+          }
+        ]
+      }
+    }
+  },
+  "Number of cells in each cluster": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number of cells per cluster"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Bar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/stats/Number-of-cells-in-each-cluster.bar.png",
+                "download": "/workdir/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/stats/Number-of-cells-in-each-cluster.bar.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Pie Chart",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/stats/Number-of-cells-in-each-cluster.pie.png",
+                "download": "/workdir/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/stats/Number-of-cells-in-each-cluster.pie.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig 1F. Cell fraction in each Sample by cluster": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number/faction of cells per cluster, by Sample"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Bar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/stats/Fig-1F-Cell-fraction-in-each-Sample-by-cluster.bar.png",
+                "download": "/workdir/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/stats/Fig-1F-Cell-fraction-in-each-Sample-by-cluster.bar.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/stats/Fig-1F-Cell-fraction-in-each-Sample-by-cluster.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Number of genes expressed in each cluster": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number of genes expressed in each seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/ngenes/Number-of-genes-expressed-in-each-cluster.boxplot.png",
+            "download": "/workdir/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/ngenes/Number-of-genes-expressed-in-each-cluster.boxplot.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 1D. Canonical marker genes": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "violinplots for selected features, by seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/features/Fig-1D-Canonical-marker-genes.violin.png",
+            "download": "/workdir/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/features/Fig-1D-Canonical-marker-genes.violin.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S1C. DEGs across clusters": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Average expression values for selected features, by seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/features/Fig-S1C-DEGs-across-clusters.avgheatmap.png",
+            "download": "/workdir/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/features/Fig-S1C-DEGs-across-clusters.avgheatmap.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 1C. UMAP": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/dimplots/Fig-1C-UMAP.dim.png",
+            "download": "/workdir/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/dimplots/Fig-1C-UMAP.dim.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 1E. Diagnosis on UMAP": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for Diagnosis"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/dimplots/Fig-1E-Diagnosis-on-UMAP.dim.png",
+            "download": "/workdir/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/dimplots/Fig-1E-Diagnosis-on-UMAP.dim.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S1D. Diagnosis on UMAP Separated (top)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/dimplots/Fig-S1D-Diagnosis-on-UMAP-Separated-top-.dim.png",
+            "download": "/workdir/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/dimplots/Fig-S1D-Diagnosis-on-UMAP-Separated-top-.dim.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S1D. Samples C1, C2 and C3 on UMAP (bottom)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/dimplots/Fig-S1D-Samples-C1-C2-and-C3-on-UMAP-bottom-.dim.png",
+            "download": "/workdir/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/dimplots/Fig-S1D-Samples-C1-C2-and-C3-on-UMAP-bottom-.dim.pdf"
+          }
+        ]
+      }
+    }
+  }
+}

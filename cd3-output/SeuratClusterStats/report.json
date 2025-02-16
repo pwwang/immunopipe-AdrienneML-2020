@@ -1,0 +1,712 @@
+{
+  "Clustree plots": {
+    "#": {
+      "#": {
+        "table_of_images": [
+          {
+            "kind": "table_image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/clustrees/seurat_clusters.clustree.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/clustrees/seurat_clusters.clustree.pdf",
+            "name": "seurat_clusters",
+            "descr": "Resolutions: 0.4, 0.45, 0.5, 0.55, 0.6; resolution used: 0.6"
+          },
+          {
+            "kind": "table_image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/clustrees/cd4_subcluster.clustree.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/clustrees/cd4_subcluster.clustree.pdf",
+            "name": "cd4_subcluster",
+            "descr": "Resolutions: 0.3, 0.35, 0.45, 0.4; resolution used: 0.4"
+          },
+          {
+            "kind": "table_image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/clustrees/cd8_subcluster.clustree.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/clustrees/cd8_subcluster.clustree.pdf",
+            "name": "cd8_subcluster",
+            "descr": "Resolutions: 0.3, 0.35, 0.45, 0.4; resolution used: 0.4"
+          },
+          {
+            "kind": "table_image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/clustrees/treg_subcluster.clustree.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/clustrees/treg_subcluster.clustree.pdf",
+            "name": "treg_subcluster",
+            "descr": "Resolutions: 0.25, 0.35, 0.3; resolution used: 0.3"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S2F. Cell Cluster Frequency": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number/faction of cells per cluster, by Sample"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Bar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/Fig-S2F-Cell-Cluster-Frequency.bar.png",
+                "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/Fig-S2F-Cell-Cluster-Frequency.bar.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/Fig-S2F-Cell-Cluster-Frequency.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig S2G. Cluster Composition by Sample": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number/faction of cells per cluster, by Sample"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Bar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/Fig-S2G-Cluster-Composition-by-Sample.bar.png",
+                "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/Fig-S2G-Cluster-Composition-by-Sample.bar.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/Fig-S2G-Cluster-Composition-by-Sample.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig 2D. Sample Composition by cluster (CD8 sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number/faction of cells per cluster, by Sample"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Bar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/Fig-2D-Sample-Composition-by-cluster-CD8-sub-clusters-.bar.png",
+                "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/Fig-2D-Sample-Composition-by-cluster-CD8-sub-clusters-.bar.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/Fig-2D-Sample-Composition-by-cluster-CD8-sub-clusters-.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig S3A. Sample Composition by cluster (CD8 sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number/faction of cells per cluster, by Sample"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Bar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/Fig-S3A-Sample-Composition-by-cluster-CD8-sub-clusters-.bar.png",
+                "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/Fig-S3A-Sample-Composition-by-cluster-CD8-sub-clusters-.bar.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/Fig-S3A-Sample-Composition-by-cluster-CD8-sub-clusters-.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig S4B. Sample Composition by cluster (CD8 sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number/faction of cells per cluster, by Sample"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Bar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/Fig-S4B-Sample-Composition-by-cluster-CD8-sub-clusters-.bar.png",
+                "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/Fig-S4B-Sample-Composition-by-cluster-CD8-sub-clusters-.bar.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/Fig-S4B-Sample-Composition-by-cluster-CD8-sub-clusters-.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig S4I. Cluster Composition by Sample (Treg sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number/faction of cells per cluster, by Sample"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Bar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/Fig-S4I-Cluster-Composition-by-Sample-Treg-sub-clusters-.bar.png",
+                "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/Fig-S4I-Cluster-Composition-by-Sample-Treg-sub-clusters-.bar.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/stats/Fig-S4I-Cluster-Composition-by-Sample-Treg-sub-clusters-.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Number of genes expressed in each cluster": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number of genes expressed in each seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/ngenes/Number-of-genes-expressed-in-each-cluster.boxplot.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/ngenes/Number-of-genes-expressed-in-each-cluster.boxplot.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S2B. CD4 and CD8A expression": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "featureplots for selected features, by seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-S2B-CD4-and-CD8A-expression.feature.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-S2B-CD4-and-CD8A-expression.feature.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S2C. Top cluster-associated genes": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "violinplots for selected features, by seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-S2C-Top-cluster-associated-genes.violin.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-S2C-Top-cluster-associated-genes.violin.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 2B. Top cluster-associated genes (CD8 sub-clusters, top)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "violinplots for selected features, by cd8_subcluster"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-2B-Top-cluster-associated-genes-CD8-sub-clusters-top-.violin.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-2B-Top-cluster-associated-genes-CD8-sub-clusters-top-.violin.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 2B. IFNG expression (CD8 sub-clusters, bottom)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "violinplots for selected features, by cd8_subcluster"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-2B-IFNG-expression-CD8-sub-clusters-bottom-.violin.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-2B-IFNG-expression-CD8-sub-clusters-bottom-.violin.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 2F. GZMB expression by Diagnosis (CD8 sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "violinplots for selected features, by cd8_subcluster"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-2F-GZMB-expression-by-Diagnosis-CD8-sub-clusters-.violin.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-2F-GZMB-expression-by-Diagnosis-CD8-sub-clusters-.violin.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S3B. Top genes in CD8 T cell sub-clusters": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Average expression values for selected features, by cd8_subcluster"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-S3B-Top-genes-in-CD8-T-cell-sub-clusters.avgheatmap.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-S3B-Top-genes-in-CD8-T-cell-sub-clusters.avgheatmap.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S3C. Top genes in CD8 T cell sub-clusters": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "featureplots for selected features, by cd8_subcluster"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-S3C-Top-genes-in-CD8-T-cell-sub-clusters.feature.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-S3C-Top-genes-in-CD8-T-cell-sub-clusters.feature.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S3D. IFNG in CD8 T cell sub-clusters": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "featureplots for selected features, by cd8_subcluster"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-S3D-IFNG-in-CD8-T-cell-sub-clusters.feature.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-S3D-IFNG-in-CD8-T-cell-sub-clusters.feature.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 3B. Top genes in CD4 T cell sub-clusters": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "violinplots for selected features, by cd4_subcluster"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-3B-Top-genes-in-CD4-T-cell-sub-clusters.violin.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-3B-Top-genes-in-CD4-T-cell-sub-clusters.violin.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 3N. FOXP3 expression (Treg sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "violinplots for selected features, by treg_subcluster"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-3N-FOXP3-expression-Treg-sub-clusters-.violin.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-3N-FOXP3-expression-Treg-sub-clusters-.violin.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 3O. Top genes in Treg sub-clusters": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Average expression values for selected features, by treg_subcluster"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-3O-Top-genes-in-Treg-sub-clusters.avgheatmap.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-3O-Top-genes-in-Treg-sub-clusters.avgheatmap.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S4A. Top genes in CD4 T cell sub-clusters": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Average expression values for selected features, by cd4_subcluster"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-S4A-Top-genes-in-CD4-T-cell-sub-clusters.avgheatmap.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-S4A-Top-genes-in-CD4-T-cell-sub-clusters.avgheatmap.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S4C. Top genes in CD4 T cell sub-clusters": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "featureplots for selected features, by cd4_subcluster"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-S4C-Top-genes-in-CD4-T-cell-sub-clusters.feature.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-S4C-Top-genes-in-CD4-T-cell-sub-clusters.feature.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S4D. IFNG in CD4 T cell sub-clusters": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "featureplots for selected features, by cd4_subcluster"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-S4D-IFNG-in-CD4-T-cell-sub-clusters.feature.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-S4D-IFNG-in-CD4-T-cell-sub-clusters.feature.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S4G. FOXP3 in Treg sub-clusters": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "featureplots for selected features, by treg_subcluster"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-S4G-FOXP3-in-Treg-sub-clusters.feature.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-S4G-FOXP3-in-Treg-sub-clusters.feature.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 5B. T cell checkpoint genes (CD8 sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "violinplots for selected features, by cd8_subcluster"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-5B-T-cell-checkpoint-genes-CD8-sub-clusters-.violin.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-5B-T-cell-checkpoint-genes-CD8-sub-clusters-.violin.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 5C. T cell checkpoint genes (CD8 sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "featureplots for selected features, by cd8_subcluster"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-5C-T-cell-checkpoint-genes-CD8-sub-clusters-.feature.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-5C-T-cell-checkpoint-genes-CD8-sub-clusters-.feature.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 5F. T cell checkpoint genes (CD4 sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "violinplots for selected features, by cd4_subcluster"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-5F-T-cell-checkpoint-genes-CD4-sub-clusters-.violin.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-5F-T-cell-checkpoint-genes-CD4-sub-clusters-.violin.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 5G. T cell checkpoint genes (CD4 sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "featureplots for selected features, by cd4_subcluster"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-5G-T-cell-checkpoint-genes-CD4-sub-clusters-.feature.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/features/Fig-5G-T-cell-checkpoint-genes-CD4-sub-clusters-.feature.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S2A. UMAP of all clusters": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/dimplots/Fig-S2A-UMAP-of-all-clusters.dim.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/dimplots/Fig-S2A-UMAP-of-all-clusters.dim.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S2E. Diagnosis on UMAP": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for Diagnosis"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/dimplots/Fig-S2E-Diagnosis-on-UMAP.dim.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/dimplots/Fig-S2E-Diagnosis-on-UMAP.dim.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 2A. UMAP (CD8 sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for cd8_subcluster"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/dimplots/Fig-2A-UMAP-CD8-sub-clusters-.dim.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/dimplots/Fig-2A-UMAP-CD8-sub-clusters-.dim.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 2C. Diagnosis on UMAP (CD8 sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for Diagnosis"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/dimplots/Fig-2C-Diagnosis-on-UMAP-CD8-sub-clusters-.dim.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/dimplots/Fig-2C-Diagnosis-on-UMAP-CD8-sub-clusters-.dim.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 3A. UMAP (CD4 sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for cd4_subcluster"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/dimplots/Fig-3A-UMAP-CD4-sub-clusters-.dim.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/dimplots/Fig-3A-UMAP-CD4-sub-clusters-.dim.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 3C. Diagnosis on UMAP (CD4 sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for Diagnosis"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/dimplots/Fig-3C-Diagnosis-on-UMAP-CD4-sub-clusters-.dim.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/dimplots/Fig-3C-Diagnosis-on-UMAP-CD4-sub-clusters-.dim.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 3L. Diagnosis on UMAP (Treg sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for Diagnosis"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/dimplots/Fig-3L-Diagnosis-on-UMAP-Treg-sub-clusters-.dim.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/dimplots/Fig-3L-Diagnosis-on-UMAP-Treg-sub-clusters-.dim.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 3M. UMAP (Treg sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for treg_subcluster"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/dimplots/Fig-3M-UMAP-Treg-sub-clusters-.dim.png",
+            "download": "/workdir/cd3-output/SeuratClusterStats/samples_CD3.seurat.cluster_stats/dimplots/Fig-3M-UMAP-Treg-sub-clusters-.dim.pdf"
+          }
+        ]
+      }
+    }
+  }
+}

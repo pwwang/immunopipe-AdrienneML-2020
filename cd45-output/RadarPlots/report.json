@@ -1,0 +1,63 @@
+{
+  "Fig 1G. Fraction of cells per Diagnosis": {
+    "#": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Radar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/cd45-output/RadarPlots/samples_CD45.seurat.radar_plots/Fig-1G-Fraction-of-cells-per-Diagnosis/plot.png",
+                "download": "/workdir/cd45-output/RadarPlots/samples_CD45.seurat.radar_plots/Fig-1G-Fraction-of-cells-per-Diagnosis/plot.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Count Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "index_col": 0
+                },
+                "src": "/workdir/cd45-output/RadarPlots/samples_CD45.seurat.radar_plots/Fig-1G-Fraction-of-cells-per-Diagnosis/counts.tsv"
+              }
+            ]
+          },
+          {
+            "name": "Percentage Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "index_col": 0
+                },
+                "src": "/workdir/cd45-output/RadarPlots/samples_CD45.seurat.radar_plots/Fig-1G-Fraction-of-cells-per-Diagnosis/percentages.tsv"
+              }
+            ]
+          },
+          {
+            "name": "Barplot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/cd45-output/RadarPlots/samples_CD45.seurat.radar_plots/Fig-1G-Fraction-of-cells-per-Diagnosis/barplot.png",
+                "download": "/workdir/cd45-output/RadarPlots/samples_CD45.seurat.radar_plots/Fig-1G-Fraction-of-cells-per-Diagnosis/barplot.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Tests",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/cd45-output/RadarPlots/samples_CD45.seurat.radar_plots/Fig-1G-Fraction-of-cells-per-Diagnosis/tests.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

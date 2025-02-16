@@ -1,0 +1,185 @@
+{
+  "Fig 2E. Fraction of cells per Diagnosis (CD8 sub-clusters)": {
+    "#": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Radar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/Fig-2E-Fraction-of-cells-per-Diagnosis-CD8-sub-clusters-/plot.png",
+                "download": "/workdir/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/Fig-2E-Fraction-of-cells-per-Diagnosis-CD8-sub-clusters-/plot.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Count Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "index_col": 0
+                },
+                "src": "/workdir/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/Fig-2E-Fraction-of-cells-per-Diagnosis-CD8-sub-clusters-/counts.tsv"
+              }
+            ]
+          },
+          {
+            "name": "Percentage Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "index_col": 0
+                },
+                "src": "/workdir/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/Fig-2E-Fraction-of-cells-per-Diagnosis-CD8-sub-clusters-/percentages.tsv"
+              }
+            ]
+          },
+          {
+            "name": "Barplot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/Fig-2E-Fraction-of-cells-per-Diagnosis-CD8-sub-clusters-/barplot.png",
+                "download": "/workdir/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/Fig-2E-Fraction-of-cells-per-Diagnosis-CD8-sub-clusters-/barplot.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Tests",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/Fig-2E-Fraction-of-cells-per-Diagnosis-CD8-sub-clusters-/tests.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig 3D. Fraction of cells per Diagnosis (CD4 sub-clusters)": {
+    "#": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Radar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/Fig-3D-Fraction-of-cells-per-Diagnosis-CD4-sub-clusters-/plot.png",
+                "download": "/workdir/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/Fig-3D-Fraction-of-cells-per-Diagnosis-CD4-sub-clusters-/plot.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Count Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "index_col": 0
+                },
+                "src": "/workdir/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/Fig-3D-Fraction-of-cells-per-Diagnosis-CD4-sub-clusters-/counts.tsv"
+              }
+            ]
+          },
+          {
+            "name": "Percentage Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "index_col": 0
+                },
+                "src": "/workdir/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/Fig-3D-Fraction-of-cells-per-Diagnosis-CD4-sub-clusters-/percentages.tsv"
+              }
+            ]
+          },
+          {
+            "name": "Barplot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/Fig-3D-Fraction-of-cells-per-Diagnosis-CD4-sub-clusters-/barplot.png",
+                "download": "/workdir/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/Fig-3D-Fraction-of-cells-per-Diagnosis-CD4-sub-clusters-/barplot.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Tests",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/Fig-3D-Fraction-of-cells-per-Diagnosis-CD4-sub-clusters-/tests.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig S2D. Fraction of cells per Diagnosis": {
+    "#": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Radar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/Fig-S2D-Fraction-of-cells-per-Diagnosis/plot.png",
+                "download": "/workdir/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/Fig-S2D-Fraction-of-cells-per-Diagnosis/plot.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Count Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "index_col": 0
+                },
+                "src": "/workdir/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/Fig-S2D-Fraction-of-cells-per-Diagnosis/counts.tsv"
+              }
+            ]
+          },
+          {
+            "name": "Percentage Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "index_col": 0
+                },
+                "src": "/workdir/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/Fig-S2D-Fraction-of-cells-per-Diagnosis/percentages.tsv"
+              }
+            ]
+          },
+          {
+            "name": "Barplot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/Fig-S2D-Fraction-of-cells-per-Diagnosis/barplot.png",
+                "download": "/workdir/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/Fig-S2D-Fraction-of-cells-per-Diagnosis/barplot.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Tests",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/cd3-output/RadarPlots/samples_CD3.seurat.radar_plots/Fig-S2D-Fraction-of-cells-per-Diagnosis/tests.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

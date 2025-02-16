@@ -1,0 +1,17 @@
+Sample	Age	Sex	Diagnosis	RNAData
+C1	62	F	Colitis	prepared-data/CD3/C1
+C2	71.2	F	Colitis	prepared-data/CD3/C2
+C3	56.2	M	Colitis	prepared-data/CD3/C3
+C4	61.5	M	Colitis	prepared-data/CD3/C4
+C5	72.8	M	Colitis	prepared-data/CD3/C5
+C6	78.4	M	Colitis	prepared-data/CD3/C6
+NC1	43.6	M	NoColitis	prepared-data/CD3/NC1
+NC2	68.1	M	NoColitis	prepared-data/CD3/NC2
+NC3	70.5	F	NoColitis	prepared-data/CD3/NC3
+NC4	63.7	M	NoColitis	prepared-data/CD3/NC4
+NC6	49.3	F	NoColitis	prepared-data/CD3/NC6
+CT1	21.4	F	Control	prepared-data/CD3/CT1
+CT2	61.7	M	Control	prepared-data/CD3/CT2
+CT3	50.5	M	Control	prepared-data/CD3/CT3
+CT4	43.4	M	Control	prepared-data/CD3/CT4
+CT6	44.3	M	Control	prepared-data/CD3/CT6

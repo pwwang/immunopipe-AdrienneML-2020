@@ -1,0 +1,305 @@
+name = "ImmunopipeCD3"
+outdir = "cd3-output"
+
+[plugin_opts]
+args_dump = true
+
+[SampleInfo.in]
+infile = "data/samples_CD3.txt"
+
+[SeuratPreparing.envs]
+cell_qc = "nFeature_RNA > 200 & percent.mt < 8.5"
+gene_qc = { min_cells = 0, excludes = ["^TR(A|B|D|G)V$"] }
+use_sct = false
+no_integration = true
+FindVariableFeatures = { nfeatures = 2000 }
+
+[ImmunarchLoading.envs]
+mode = "paired"
+
+[SeuratClusteringOfAllCells.envs]
+ScaleData = { vars-to-regress = [ "percent.mt" ] }
+cache = "./.cluster_cache"
+FindNeighbors = { dims = 20 }
+FindClusters = { resolution = 1.6 }
+
+[TCellSelection.envs]
+indicator_genes = ["CD3D", "CD3E", "CD3G", "CD14", "CD68"]
+
+[SeuratClustering.envs]
+cache = "./.cluster_cache"
+FindNeighbors = { dims = 20 }
+# Expecting 13 clusters
+FindClusters = { resolution = [0.4, 0.45, 0.5, 0.55, 0.6] }
+
+[SeuratSubClustering.envs]
+cache = "./.cluster_cache"
+
+[SeuratSubClustering.envs.cases.cd4_subcluster]
+# by looking at CD4 and CD8A expression (Figure S2B)
+subset = 'seurat_clusters %in% c("c1", "c6", "c8", "c9", "c15", "c7", "c10", "c12")'
+FindNeighbors = { dims = 20 }
+# Expecting 10 clusters
+FindClusters = { resolution = [0.3, 0.35, 0.45, 0.4] }
+
+[SeuratSubClustering.envs.cases.cd8_subcluster]
+# by looking at CD4 and CD8A expression (Figure S2B)
+subset = 'seurat_clusters %in% c("c2", "c5", "c4", "c3", "c14", "c11", "c13")'
+FindNeighbors = { dims = 20 }
+# Expecting 8 clusters
+FindClusters = { resolution = [0.3, 0.35, 0.45, 0.4] }
+
+[SeuratSubClustering.envs.cases.treg_subcluster]
+# by looking at FOXP3 expression (Figure S4A)
+subset = 'cd4_subcluster == "s3"'
+FindNeighbors = { dims = 20 }
+# Expecting 8 clusters
+FindClusters = { resolution = [0.25, 0.35, 0.3] }
+
+[ClusterMarkers.envs]
+rest = { min-pct = 0.3, logfc-thresh = 0 }
+
+# Figure S2
+[SeuratClusterStats.envs.dimplots."Fig S2A. UMAP of all clusters"]
+label = true
+label-box = true
+repel = true
+
+[SeuratClusterStats.envs.features."Fig S2B. CD4 and CD8A expression"]
+kind = "feature"
+ncol = 2
+features = ["CD4", "CD8A"]
+
+[SeuratClusterStats.envs.features."Fig S2C. Top cluster-associated genes"]
+kind = "violin"
+ncol = 4
+features = [
+    "KLRG1", "NCR3", "TNFSF138", "CCR6", "FOSB", "ANXA1", "CCR7", "KLF2", "SAT1",
+    "NEAT1", "RASK", "CXCR5", "FOXP3", "TNFRSF4", "GPR25", "STAT1", "MKI67",
+    "STMN1", "GZMH", "GZMB", "TNFSF9", "GZMK", "XCL2", "XCL1", "KLRC2", "KIR2DL4",
+]
+
+[RadarPlots.envs.cases."Fig S2D. Fraction of cells per Diagnosis"]
+by = "Diagnosis"
+breakdown = "Sample"
+test = "wilcox"
+
+[SeuratClusterStats.envs.dimplots."Fig S2E. Diagnosis on UMAP"]
+group-by = "Diagnosis"
+
+[SeuratClusterStats.envs.stats."Fig S2F. Cell Cluster Frequency"]
+group-by = "Sample"
+table = true
+frac = true
+transpose = true
+
+[SeuratClusterStats.envs.stats."Fig S2G. Cluster Composition by Sample"]
+group-by = "Sample"
+table = true
+frac = true
+
+# Figure 2
+[SeuratClusterStats.envs.dimplots."Fig 2A. UMAP (CD8 sub-clusters)"]
+label = true
+label-box = true
+repel = true
+ident = "cd8_subcluster"
+
+[SeuratClusterStats.envs.features."Fig 2B. Top cluster-associated genes (CD8 sub-clusters, top)"]
+kind = "violin"
+ncol = 4
+ident = "cd8_subcluster"
+features = [
+    "KIR2DL4", "TRDC", "ANXA1", "IL7R", "GZMK", "EOMES", "SLC4A10", "KLRB1",
+    "MIAT", "RNF213", "CCR7", "KLF2", "UCP2", "GZMB", "TYMS", "MKI67",
+]
+
+[SeuratClusterStats.envs.features."Fig 2B. IFNG expression (CD8 sub-clusters, bottom)"]
+kind = "violin"
+ident = "cd8_subcluster"
+features = ["IFNG"]
+
+[SeuratClusterStats.envs.dimplots."Fig 2C. Diagnosis on UMAP (CD8 sub-clusters)"]
+group-by = "Diagnosis"
+ident = "cd8_subcluster"
+
+[SeuratClusterStats.envs.stats."Fig 2D. Sample Composition by cluster (CD8 sub-clusters)"]
+group-by = "Sample"
+table = true
+frac = true
+transpose = true
+ident = "cd8_subcluster"
+
+[RadarPlots.envs.cases."Fig 2E. Fraction of cells per Diagnosis (CD8 sub-clusters)"]
+by = "Diagnosis"
+breakdown = "Sample"
+ident = "cd8_subcluster"
+
+[SeuratClusterStats.envs.features."Fig 2F. GZMB expression by Diagnosis (CD8 sub-clusters)"]
+kind = "violin"
+split-by = "Diagnosis"
+ident = "cd8_subcluster"
+features = ["GZMB"]
+devpars = { width = 600 }
+
+[SeuratClusterStats.envs.stats."Fig S3A. Sample Composition by cluster (CD8 sub-clusters)"]
+group-by = "Sample"
+table = true
+frac = true
+ident = "cd8_subcluster"
+
+[SeuratClusterStats.envs.features."Fig S3B. Top genes in CD8 T cell sub-clusters"]
+kind = "avgheatmap"
+ident = "cd8_subcluster"
+features = [
+    "KIR2DL4", "KLRC2", "FCER1G", "KLRC3", "TYROBP", "TRDC", "LAT2", "GZMA", "FOS",
+    "FOSB", "IL7R", "ANXA1", "VIM", "XCL2", "XCL1", "EGR1", "NR4A1", "JUN", "GZMK",
+    "CCL4L2", "KLRG1", "SH2D1A", "CMC1", "EOMES", "ITGB2", "CCL4", "TNFSF9", "KLRB1",
+    "NCR3", "CCL20", "AQP3", "LTB", "CEBPD", "NFKBIA", "NEAT1", "CD38", "CTLA4",
+    "CCR7", "SELL", "TCR7", "LEF1", "KLF2", "NELL2", "NOSIP", "GZMB", "GNLY",
+    "LINC02446", "UCP2", "HLA-DRA", "ZNF683", "GZMH", "LAG3", "STMN1", "TUBA1B",
+    "HMGB2", "TYMS", "TUBB", "UBE2C", "HMGN2", "MKI67", "H2AFZ", "HIST1H4C",
+]
+
+[SeuratClusterStats.envs.features."Fig S3C. Top genes in CD8 T cell sub-clusters"]
+kind = "feature"
+ncol = 3
+features = ["GZMB", "GNLY", "LINC02446", "STMN1", "CD38", "HLA-DRA", "CTLA4", "CD74", "UCP2"]
+ident = "cd8_subcluster"
+
+[SeuratClusterStats.envs.features."Fig S3D. IFNG in CD8 T cell sub-clusters"]
+kind = "feature"
+ncol = 3
+split-by = "Diagnosis"
+features = ["IFNG"]
+ident = "cd8_subcluster"
+devpars = { width = 1000 }
+
+[SeuratClusterStats.envs.dimplots."Fig 3A. UMAP (CD4 sub-clusters)"]
+label = true
+label-box = true
+repel = true
+ident = "cd4_subcluster"
+
+[SeuratClusterStats.envs.features."Fig 3B. Top genes in CD4 T cell sub-clusters"]
+kind = "violin"
+ident = "cd4_subcluster"
+ncol = 4
+features = [
+    "IL4I1", "IL23R", "NR4A1", "EGR1", "CCL5", "ANXA1", "S1PR1", "KLF2",
+    "LINC00402", "CCR7", "TOX2", "DRAIC", "IKZF2", "FOXP3", "GZMH", "GZMK",
+    "GBP5", "GPR25", "MKI67", "TYMS",
+]
+
+[SeuratClusterStats.envs.dimplots."Fig 3C. Diagnosis on UMAP (CD4 sub-clusters)"]
+group-by = "Diagnosis"
+ident = "cd4_subcluster"
+
+[RadarPlots.envs.cases."Fig 3D. Fraction of cells per Diagnosis (CD4 sub-clusters)"]
+by = "Diagnosis"
+breakdown = "Sample"
+ident = "cd4_subcluster"
+
+[SeuratClusterStats.envs.dimplots."Fig 3L. Diagnosis on UMAP (Treg sub-clusters)"]
+group-by = "Diagnosis"
+ident = "treg_subcluster"
+
+[SeuratClusterStats.envs.dimplots."Fig 3M. UMAP (Treg sub-clusters)"]
+label = true
+label-box = true
+repel = true
+ident = "treg_subcluster"
+
+[SeuratClusterStats.envs.features."Fig 3N. FOXP3 expression (Treg sub-clusters)"]
+kind = "violin"
+ident = "treg_subcluster"
+features = ["FOXP3"]
+
+[SeuratClusterStats.envs.features."Fig 3O. Top genes in Treg sub-clusters"]
+kind = "avgheatmap"
+ident = "treg_subcluster"
+features = [
+    "IL12RB2", "TNFRSF4", "CXCR3", "TNFRSF18", "STAT1", "KLF2", "LEF1", "ITGB1",
+    "ZFP36L2", "VIM", "LGALS1", "GPR15", "TXNIP", "FOSB", "IL10", "KLRB1", "LAG3",
+    "IKZF3", "GPR25", "SLC2A3", "CCR4", "NEAT1", "CD38", "CCR7",
+]
+
+[SeuratClusterStats.envs.features."Fig S4A. Top genes in CD4 T cell sub-clusters"]
+kind = "avgheatmap"
+ident = "cd4_subcluster"
+features = [
+    "CEBPD", "IL23R", "IL4I1", "CCR6", "TNFSF13B", "LGALS3", "LINC01871", "TNFAIP3",
+    "CCL20", "TNF", "EGR1", "NR4A1", "JUN", "FOSB", "GADD45B", "FOS", "IER2", "HSPA1B",
+    "HSPA1A", "ANXA1", "CCL5", "VIM", "IL7R", "CXCR4", "PTGER2", "HOPX", "CAPG",
+    "LGALS1", "KLF2", "SELL", "CCR7", "S1PR1", "RIPOR2", "TCF7", "LEF1", "NOSIP",
+    "CD55", "C1orf162", "PASK", "LINC00402", "MALAT1", "CXCR5", "JUNB", "TOX",
+    "AC012645.3", "TBC1D4", "MAGEH1", "IL6ST", "FOXP3", "CTLA4", "TNFRSF1B",
+    "TNFRSF18", "BATF", "MIR4435-2HG", "MLA-DRB1", "TNFRSF4", "LAG3", "GZMK", "CCL4",
+    "GZMA", "GZMH", "EOMES", "CST7", "NKG7", "APOBEC3G", "TNFSF9", "GBP5", "CD74",
+    "CD38", "DUSP4", "COTL1", "GPR25", "STAT1", "CXCR6", "TYMS", "UBE2C", "MKI67",
+    "STMN1", "HMGB2", "GNLY", "TUBA1B", "TUBB", "HMGN2", "HIST1H4C",
+]
+
+[SeuratClusterStats.envs.stats."Fig S4B. Sample Composition by cluster (CD8 sub-clusters)"]
+group-by = "Sample"
+table = true
+frac = true
+transpose = true
+ident = "cd8_subcluster"
+
+[SeuratClusterStats.envs.features."Fig S4C. Top genes in CD4 T cell sub-clusters"]
+kind = "feature"
+ncol = 3
+features = ["GZMA", "GBP5", "CD74", "CD38", "HLA-DRB1", "CXCR6", "STAT1", "DUSP4", "GPR25"]
+ident = "cd4_subcluster"
+
+[SeuratClusterStats.envs.features."Fig S4D. IFNG in CD4 T cell sub-clusters"]
+kind = "feature"
+ncol = 3
+split-by = "Diagnosis"
+features = ["IFNG"]
+ident = "cd4_subcluster"
+devpars = { width = 1000 }
+
+[SeuratClusterStats.envs.features."Fig S4G. FOXP3 in Treg sub-clusters"]
+kind = "feature"
+features = ["FOXP3"]
+ident = "treg_subcluster"
+
+[RadarPlots.envs.stats."Fig S4H. Cluster Composition by Diagnosis (Treg sub-clusters)"]
+by = "Diagnosis"
+breakdown = "Sample"
+ident = "treg_subcluster"
+
+[SeuratClusterStats.envs.stats."Fig S4I. Cluster Composition by Sample (Treg sub-clusters)"]
+group-by = "Sample"
+table = true
+frac = true
+ident = "treg_subcluster"
+
+[SeuratClusterStats.envs.features."Fig 5B. T cell checkpoint genes (CD8 sub-clusters)"]
+kind = "violin"
+ident = "cd8_subcluster"
+ncol = 3
+features = ["CTLA4", "PDCD1", "LAG3", "HAVCR2", "TIGIT", "CD38"]
+
+[SeuratClusterStats.envs.features."Fig 5C. T cell checkpoint genes (CD8 sub-clusters)"]
+kind = "feature"
+ident = "cd8_subcluster"
+ncol = 3
+features = ["CTLA4", "PDCD1", "LAG3", "HAVCR2", "TIGIT", "CD38"]
+
+[SeuratClusterStats.envs.features."Fig 5F. T cell checkpoint genes (CD4 sub-clusters)"]
+kind = "violin"
+ident = "cd4_subcluster"
+ncol = 3
+features = ["CTLA4", "PDCD1", "LAG3", "HAVCR2", "TIGIT", "CD38"]
+
+[SeuratClusterStats.envs.features."Fig 5G. T cell checkpoint genes (CD4 sub-clusters)"]
+kind = "feature"
+ident = "cd4_subcluster"
+ncol = 3
+features = ["CTLA4", "PDCD1", "LAG3", "HAVCR2", "TIGIT", "CD38"]
+
+[SeuratClusterStats.plugin_opts]
+report_paging = 8

@@ -1,0 +1,1037 @@
+{
+  "Cluster: c1": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c1/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The volcano plot is generated using ggplot2. The significant markers are highlighted in blue and red, indicating up-regulated and down-regulated genes, respectively. The non-significant genes are shown in grey. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c1/volcano.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c1/volcano.pdf"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The dot plot is generated using Seurat's DotPlot function. The top significant markers are used as input. The sizes of the dots are proportional to the percentage of cells expressing the gene in each group. The colors of the dots are proportional to the average expression of the gene in each group. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c1/dotplot.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c1/dotplot.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c1"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c2": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c2/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The volcano plot is generated using ggplot2. The significant markers are highlighted in blue and red, indicating up-regulated and down-regulated genes, respectively. The non-significant genes are shown in grey. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c2/volcano.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c2/volcano.pdf"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The dot plot is generated using Seurat's DotPlot function. The top significant markers are used as input. The sizes of the dots are proportional to the percentage of cells expressing the gene in each group. The colors of the dots are proportional to the average expression of the gene in each group. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c2/dotplot.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c2/dotplot.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c2"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c3": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c3/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The volcano plot is generated using ggplot2. The significant markers are highlighted in blue and red, indicating up-regulated and down-regulated genes, respectively. The non-significant genes are shown in grey. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c3/volcano.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c3/volcano.pdf"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The dot plot is generated using Seurat's DotPlot function. The top significant markers are used as input. The sizes of the dots are proportional to the percentage of cells expressing the gene in each group. The colors of the dots are proportional to the average expression of the gene in each group. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c3/dotplot.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c3/dotplot.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c3"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c4": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c4/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The volcano plot is generated using ggplot2. The significant markers are highlighted in blue and red, indicating up-regulated and down-regulated genes, respectively. The non-significant genes are shown in grey. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c4/volcano.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c4/volcano.pdf"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The dot plot is generated using Seurat's DotPlot function. The top significant markers are used as input. The sizes of the dots are proportional to the percentage of cells expressing the gene in each group. The colors of the dots are proportional to the average expression of the gene in each group. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c4/dotplot.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c4/dotplot.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c4"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c5": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c5/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The volcano plot is generated using ggplot2. The significant markers are highlighted in blue and red, indicating up-regulated and down-regulated genes, respectively. The non-significant genes are shown in grey. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c5/volcano.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c5/volcano.pdf"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The dot plot is generated using Seurat's DotPlot function. The top significant markers are used as input. The sizes of the dots are proportional to the percentage of cells expressing the gene in each group. The colors of the dots are proportional to the average expression of the gene in each group. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c5/dotplot.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c5/dotplot.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c5"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c6": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c6/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The volcano plot is generated using ggplot2. The significant markers are highlighted in blue and red, indicating up-regulated and down-regulated genes, respectively. The non-significant genes are shown in grey. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c6/volcano.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c6/volcano.pdf"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The dot plot is generated using Seurat's DotPlot function. The top significant markers are used as input. The sizes of the dots are proportional to the percentage of cells expressing the gene in each group. The colors of the dots are proportional to the average expression of the gene in each group. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c6/dotplot.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c6/dotplot.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c6"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c7": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c7/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The volcano plot is generated using ggplot2. The significant markers are highlighted in blue and red, indicating up-regulated and down-regulated genes, respectively. The non-significant genes are shown in grey. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c7/volcano.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c7/volcano.pdf"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The dot plot is generated using Seurat's DotPlot function. The top significant markers are used as input. The sizes of the dots are proportional to the percentage of cells expressing the gene in each group. The colors of the dots are proportional to the average expression of the gene in each group. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c7/dotplot.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c7/dotplot.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c7"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c8": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c8/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The volcano plot is generated using ggplot2. The significant markers are highlighted in blue and red, indicating up-regulated and down-regulated genes, respectively. The non-significant genes are shown in grey. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c8/volcano.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c8/volcano.pdf"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The dot plot is generated using Seurat's DotPlot function. The top significant markers are used as input. The sizes of the dots are proportional to the percentage of cells expressing the gene in each group. The colors of the dots are proportional to the average expression of the gene in each group. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c8/dotplot.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c8/dotplot.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c8"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c9": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c9/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The volcano plot is generated using ggplot2. The significant markers are highlighted in blue and red, indicating up-regulated and down-regulated genes, respectively. The non-significant genes are shown in grey. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c9/volcano.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c9/volcano.pdf"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The dot plot is generated using Seurat's DotPlot function. The top significant markers are used as input. The sizes of the dots are proportional to the percentage of cells expressing the gene in each group. The colors of the dots are proportional to the average expression of the gene in each group. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c9/dotplot.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c9/dotplot.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c9"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c10": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c10/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The volcano plot is generated using ggplot2. The significant markers are highlighted in blue and red, indicating up-regulated and down-regulated genes, respectively. The non-significant genes are shown in grey. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c10/volcano.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c10/volcano.pdf"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The dot plot is generated using Seurat's DotPlot function. The top significant markers are used as input. The sizes of the dots are proportional to the percentage of cells expressing the gene in each group. The colors of the dots are proportional to the average expression of the gene in each group. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c10/dotplot.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c10/dotplot.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c10"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c11": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c11/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The volcano plot is generated using ggplot2. The significant markers are highlighted in blue and red, indicating up-regulated and down-regulated genes, respectively. The non-significant genes are shown in grey. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c11/volcano.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c11/volcano.pdf"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The dot plot is generated using Seurat's DotPlot function. The top significant markers are used as input. The sizes of the dots are proportional to the percentage of cells expressing the gene in each group. The colors of the dots are proportional to the average expression of the gene in each group. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c11/dotplot.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c11/dotplot.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c11"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c12": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c12/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The volcano plot is generated using ggplot2. The significant markers are highlighted in blue and red, indicating up-regulated and down-regulated genes, respectively. The non-significant genes are shown in grey. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c12/volcano.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c12/volcano.pdf"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The dot plot is generated using Seurat's DotPlot function. The top significant markers are used as input. The sizes of the dots are proportional to the percentage of cells expressing the gene in each group. The colors of the dots are proportional to the average expression of the gene in each group. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c12/dotplot.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c12/dotplot.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c12"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c13": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c13/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The volcano plot is generated using ggplot2. The significant markers are highlighted in blue and red, indicating up-regulated and down-regulated genes, respectively. The non-significant genes are shown in grey. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c13/volcano.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c13/volcano.pdf"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The dot plot is generated using Seurat's DotPlot function. The top significant markers are used as input. The sizes of the dots are proportional to the percentage of cells expressing the gene in each group. The colors of the dots are proportional to the average expression of the gene in each group. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c13/dotplot.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c13/dotplot.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c13"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c14": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c14/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The volcano plot is generated using ggplot2. The significant markers are highlighted in blue and red, indicating up-regulated and down-regulated genes, respectively. The non-significant genes are shown in grey. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c14/volcano.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c14/volcano.pdf"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The dot plot is generated using Seurat's DotPlot function. The top significant markers are used as input. The sizes of the dots are proportional to the percentage of cells expressing the gene in each group. The colors of the dots are proportional to the average expression of the gene in each group. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c14/dotplot.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c14/dotplot.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c14"
+          }
+        ]
+      }
+    }
+  },
+  "Cluster: c15": {
+    "Markers": {
+      "#": {
+        "tabs": [
+          {
+            "title": "Significant Markers",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The markers are found using Seurat's FindMarkers function, and filtered by: p_val_adj &lt; 0.05 &amp; avg_log2FC &gt; 0"
+              },
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c15/markers.txt"
+              }
+            ]
+          },
+          {
+            "title": "Volcano Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The volcano plot is generated using ggplot2. The significant markers are highlighted in blue and red, indicating up-regulated and down-regulated genes, respectively. The non-significant genes are shown in grey. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c15/volcano.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c15/volcano.pdf"
+              }
+            ]
+          },
+          {
+            "title": "Dot Plot",
+            "ui": "flat",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "The dot plot is generated using Seurat's DotPlot function. The top significant markers are used as input. The sizes of the dots are proportional to the percentage of cells expressing the gene in each group. The colors of the dots are proportional to the average expression of the gene in each group. "
+              },
+              {
+                "kind": "img",
+                "src": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c15/dotplot.png",
+                "download": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c15/dotplot.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Enrichment Analysis": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The enrichment analysis is done using Enrichr. The significant markers are used as input. "
+          },
+          {
+            "kind": "enrichr",
+            "dir": "/workdir/cd3-output/ClusterMarkers/samples_CD3.markers/Cluster/c15"
+          }
+        ]
+      }
+    }
+  }
+}
