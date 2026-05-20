@@ -1,0 +1,246 @@
+{
+  "Dimensional reduction plot": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/dimplots/Dimensional-reduction-plot.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/dimplots/Dimensional-reduction-plot.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig 1C. UMAP": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/dimplots/Fig-1C-UMAP.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/dimplots/Fig-1C-UMAP.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig 1E. Diagnosis on UMAP": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for Diagnosis"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/dimplots/Fig-1E-Diagnosis-on-UMAP.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/dimplots/Fig-1E-Diagnosis-on-UMAP.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig S1D. Diagnosis on UMAP Separated (top)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/dimplots/Fig-S1D-Diagnosis-on-UMAP-Separated-top-.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/dimplots/Fig-S1D-Diagnosis-on-UMAP-Separated-top-.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig S1D. Samples C1, C2 and C3 on UMAP (bottom)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/dimplots/Fig-S1D-Samples-C1-C2-and-C3-on-UMAP-bottom-.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/dimplots/Fig-S1D-Samples-C1-C2-and-C3-on-UMAP-bottom-.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Number of cells in each cluster (Bar Chart)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The bar plot shows the distribution of cells across categories defined by 'seurat_clusters'. The values represent the number of cells. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/stats/Number-of-cells-in-each-cluster-Bar-Chart-.png"
+          }
+        ]
+      }
+    }
+  },
+  "Number of cells in each cluster by Sample (Bar Chart)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The bar plot shows the distribution of cells across categories defined by 'seurat_clusters', grouped by Sample. The values represent the number of cells. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/stats/Number-of-cells-in-each-cluster-by-Sample-Bar-Chart-.png"
+          }
+        ]
+      }
+    }
+  },
+  "Number of cells in each cluster": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": []
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/stats/Number-of-cells-in-each-cluster.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 1F. Cell fraction in each Sample by cluster": {
+    "#": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": []
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/stats/Fig-1F-Cell-fraction-in-each-Sample-by-cluster.png"
+              }
+            ]
+          },
+          {
+            "name": "Data",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Data used directly for the plot"
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/stats/Fig-1F-Cell-fraction-in-each-Sample-by-cluster.data.txt",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig 1G. Fraction of cells per Diagnosis": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": ["The box plot shows the distribution of cells across categories defined by 'seurat_clusters', grouped by Sample. The values represent the fraction of cells calculated by \"group\". ", "The box plot shows the distribution of cells across categories defined by 'seurat_clusters', grouped by Diagnosis. The values represent the fraction of cells calculated by \"group\". "]
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/stats/Fig-1G-Fraction-of-cells-per-Diagnosis.png"
+          }
+        ]
+      }
+    }
+  },
+  "Number of genes expressed in each cluster": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Number of genes expressed in each cluster"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/ngenes/Number-of-genes-expressed-in-each-cluster.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 1D. Canonical marker genes": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (IGHA1, IGHG2, TPSAB1, S100A9, C1QC, MS4A1, FCER2, MEF2B, CSF2, IL7R, GZMB, MKI67, CD4, CD8A, CD3D) across cells. The plot type is 'violin', showing the distribution of feature values by the grouping variables. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/features/Fig-1D-Canonical-marker-genes.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S1C. DEGs across clusters": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (IGLL5, IGLC2, TPSAB1, TPSAB1, TPSB2, CPA3, CLU, HPGDS, VWA5A, TPSD1, HPGD, CD9, MS4A2, LYZ, CST3, C1QC, C1QA, C1QB, S100A9, S100A8, IL1B, AIF1, TYROBP, MS4A1, VPREB3, HLA-DRA, CD83, BANK1, HLA-DQA1, SMIM14, HLA-DPB1, TCL1A, FCER2, MEF2B, RGS13, ELL3, LRMP, MARCKSL1, AREG, CSF2, KRT86, LINC00299, LST1, XCL1, IL7R, LTB, XCL2, GNLY, NKG7, KLRD1, TRDC, IL2RB, CCL3, CCL4, TNF, KLRB1, ANXA1, CD40LG, CTLA4, SPOCK2, ICOS, CCR7, PASK, TNFRSF4, GZMA, HOPX, KIR2DL4, GZMK, CCL4L2, GZMH, IFNG, CD8A, CD8B, GZMB, LINC02446, LAG3, ZNF683, STMN1, HIST1H4C, TUBA1B, HMGB2, TUBB, HMGN2, TYMS, H2AFZ, UBE2C, MKI67) across cells. The plot type is 'heatmap', arranged as a heatmap by rows_name and other grouping variables. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd45-output/SeuratClusterStats/samples_CD45.seurat.cluster_stats/features/Fig-S1C-DEGs-across-clusters.png"
+          }
+        ]
+      }
+    }
+  }
+}

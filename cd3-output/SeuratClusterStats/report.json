@@ -1,0 +1,809 @@
+{
+  "Dimensional reduction plot": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/dimplots/Dimensional-reduction-plot.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/dimplots/Dimensional-reduction-plot.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "VDJ Presence": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for VDJ_Presence"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/dimplots/VDJ-Presence.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/dimplots/VDJ-Presence.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig S2A. UMAP of all clusters": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/dimplots/Fig-S2A-UMAP-of-all-clusters.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/dimplots/Fig-S2A-UMAP-of-all-clusters.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig S2E. Diagnosis on UMAP": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for Diagnosis"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/dimplots/Fig-S2E-Diagnosis-on-UMAP.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/dimplots/Fig-S2E-Diagnosis-on-UMAP.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig 2A. UMAP (CD8 sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for cd8_subcluster"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/dimplots/Fig-2A-UMAP-CD8-sub-clusters.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/dimplots/Fig-2A-UMAP-CD8-sub-clusters.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig 2C. Diagnosis on UMAP (CD8 sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for Diagnosis"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/dimplots/Fig-2C-Diagnosis-on-UMAP-CD8-sub-clusters.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/dimplots/Fig-2C-Diagnosis-on-UMAP-CD8-sub-clusters.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig 3A. UMAP (CD4 sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for cd4_subcluster"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/dimplots/Fig-3A-UMAP-CD4-sub-clusters.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/dimplots/Fig-3A-UMAP-CD4-sub-clusters.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig 3C. Diagnosis on UMAP (CD4 sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for Diagnosis"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/dimplots/Fig-3C-Diagnosis-on-UMAP-CD4-sub-clusters.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/dimplots/Fig-3C-Diagnosis-on-UMAP-CD4-sub-clusters.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig 3L. Diagnosis on UMAP (Treg sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for Diagnosis"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/dimplots/Fig-3L-Diagnosis-on-UMAP-Treg-sub-clusters.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/dimplots/Fig-3L-Diagnosis-on-UMAP-Treg-sub-clusters.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig 3M. UMAP (Treg sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for treg_subcluster"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/dimplots/Fig-3M-UMAP-Treg-sub-clusters.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/dimplots/Fig-3M-UMAP-Treg-sub-clusters.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Number of cells in each cluster (Bar Chart)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The bar plot shows the distribution of cells across categories defined by 'seurat_clusters'. The values represent the number of cells. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/stats/Number-of-cells-in-each-cluster-Bar-Chart.png"
+          }
+        ]
+      }
+    }
+  },
+  "Number of cells in each cluster by Sample (Bar Chart)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The bar plot shows the distribution of cells across categories defined by 'seurat_clusters', grouped by Sample. The values represent the number of cells. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/stats/Number-of-cells-in-each-cluster-by-Sample-Bar-Chart.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S2D. Fraction of cells per Diagnosis": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": ["The box plot shows the distribution of cells across categories defined by 'seurat_clusters', grouped by Sample. The values represent the fraction of cells calculated by \"group\". ", "The box plot shows the distribution of cells across categories defined by 'seurat_clusters', grouped by Diagnosis. The values represent the fraction of cells calculated by \"group\". "]
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/stats/Fig-S2D-Fraction-of-cells-per-Diagnosis.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S2F. Cell Cluster Frequency": {
+    "#": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": []
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/stats/Fig-S2F-Cell-Cluster-Frequency.png"
+              }
+            ]
+          },
+          {
+            "name": "Data",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Data used directly for the plot"
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/stats/Fig-S2F-Cell-Cluster-Frequency.data.txt",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig S2G. Cluster Composition by Sample": {
+    "#": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": []
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/stats/Fig-S2G-Cluster-Composition-by-Sample.png"
+              }
+            ]
+          },
+          {
+            "name": "Data",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Data used directly for the plot"
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/stats/Fig-S2G-Cluster-Composition-by-Sample.data.txt",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig 2D. Sample Composition by cluster (CD8 sub-clusters)": {
+    "#": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": []
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/stats/Fig-2D-Sample-Composition-by-cluster-CD8-sub-clusters.png"
+              }
+            ]
+          },
+          {
+            "name": "Data",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Data used directly for the plot"
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/stats/Fig-2D-Sample-Composition-by-cluster-CD8-sub-clusters.data.txt",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig 2E. Fraction of cells per Diagnosis (CD8 sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": ["The box plot shows the distribution of cells across categories defined by 'cd8_subcluster', grouped by Sample. The values represent the fraction of cells calculated by \"group\". ", "The box plot shows the distribution of cells across categories defined by 'cd8_subcluster', grouped by Diagnosis. The values represent the fraction of cells calculated by \"group\". "]
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/stats/Fig-2E-Fraction-of-cells-per-Diagnosis-CD8-sub-clusters.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S3A. Sample Composition by cluster (CD8 sub-clusters)": {
+    "#": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": []
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/stats/Fig-S3A-Sample-Composition-by-cluster-CD8-sub-clusters.png"
+              }
+            ]
+          },
+          {
+            "name": "Data",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Data used directly for the plot"
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/stats/Fig-S3A-Sample-Composition-by-cluster-CD8-sub-clusters.data.txt",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Fig 3D. Fraction of cells per Diagnosis (CD4 sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": ["The box plot shows the distribution of cells across categories defined by 'cd4_subcluster', grouped by Sample. The values represent the fraction of cells calculated by \"group\". ", "The box plot shows the distribution of cells across categories defined by 'cd4_subcluster', grouped by Diagnosis. The values represent the fraction of cells calculated by \"group\". "]
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/stats/Fig-3D-Fraction-of-cells-per-Diagnosis-CD4-sub-clusters.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S4B. Sample Composition by cluster (CD8 sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": []
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/stats/Fig-S4B-Sample-Composition-by-cluster-CD8-sub-clusters.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S4H. Cluster Composition by Diagnosis (Treg sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": ["The box plot shows the distribution of cells across categories defined by 'treg_subcluster', grouped by Sample. The values represent the fraction of cells calculated by \"group\". ", "The box plot shows the distribution of cells across categories defined by 'treg_subcluster', grouped by Diagnosis. The values represent the fraction of cells calculated by \"group\". "]
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/stats/Fig-S4H-Cluster-Composition-by-Diagnosis-Treg-sub-clusters.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S4I. Cluster Composition by Sample (Treg sub-clusters)": {
+    "#": {
+      "#": {
+        "tabs": [
+          {
+            "name": "Plot",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": []
+              },
+              {
+                "kind": "image",
+                "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/stats/Fig-S4I-Cluster-Composition-by-Sample-Treg-sub-clusters.png"
+              }
+            ]
+          },
+          {
+            "name": "Data",
+            "contents": [
+              {
+                "kind": "descr",
+                "content": "Data used directly for the plot"
+              },
+              {
+                "kind": "table",
+                "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/stats/Fig-S4I-Cluster-Composition-by-Sample-Treg-sub-clusters.data.txt",
+                "data": {
+                  "nrows": 100
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Number of genes expressed in each cluster": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Number of genes expressed in each cluster"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/ngenes/Number-of-genes-expressed-in-each-cluster.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S2B. CD4 and CD8A expression": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (CD4, CD8A) across cells. The plot type is 'dim', displaying the features on a dimensional reduction embedding. The reduction used is \"umap\", using dimensions 1,2"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/features/Fig-S2B-CD4-and-CD8A-expression.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S2C. Top cluster-associated genes": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (KLRG1, NCR3, TNFSF13B, CCR6, FOSB, ANXA1, CCR7, KLF2, SAT1, NEAT1, PASK, CXCR5, FOXP3, TNFRSF4, GPR25, STAT1, MKI67, STMN1, GZMH, GZMB, TNFSF9, GZMK, XCL2, XCL1, KLRC2, KIR2DL4) across cells. The plot type is 'violin', showing the distribution of feature values by the grouping variables. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/features/Fig-S2C-Top-cluster-associated-genes.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 2B. Top cluster-associated genes (CD8 sub-clusters, top)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (KIR2DL4, TRDC, ANXA1, IL7R, GZMK, EOMES, SLC4A10, KLRB1, MIAT, RNF213, CCR7, KLF2, UCP2, GZMB, TYMS, MKI67) across cells, identified by \"cd8_subcluster\". The plot type is 'violin', showing the distribution of feature values by the grouping variables. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/features/Fig-2B-Top-cluster-associated-genes-CD8-sub-clusters-top.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 2B. IFNG expression (CD8 sub-clusters, bottom)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (IFNG) across cells, identified by \"cd8_subcluster\". The plot type is 'violin', showing the distribution of feature values by the grouping variables. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/features/Fig-2B-IFNG-expression-CD8-sub-clusters-bottom.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 2F. GZMB expression by Diagnosis (CD8 sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (GZMB) across cells, identified by \"cd8_subcluster\", and split by \"Diagnosis\". The plot type is 'violin', showing the distribution of feature values by the grouping variables. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/features/Fig-2F-GZMB-expression-by-Diagnosis-CD8-sub-clusters.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S3B. Top genes in CD8 T cell sub-clusters": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (KIR2DL4, KLRC2, FCER1G, KLRC3, TYROBP, TRDC, LAT2, GZMA, FOS, FOSB, IL7R, ANXA1, VIM, XCL2, XCL1, EGR1, NR4A1, JUN, GZMK, CCL4L2, KLRG1, SH2D1A, CMC1, EOMES, ITGB2, CCL4, TNFSF9, KLRB1, NCR3, CCL20, AQP3, LTB, CEBPD, NFKBIA, NEAT1, CD38, CTLA4, CCR7, SELL, TCF7, LEF1, KLF2, NELL2, NOSIP, GZMB, GNLY, LINC02446, UCP2, HLA-DRA, ZNF683, GZMH, LAG3, STMN1, TUBA1B, HMGB2, TYMS, TUBB, UBE2C, HMGN2, MKI67, H2AFZ, HIST1H4C) across cells, identified by \"cd8_subcluster\". The plot type is 'heatmap', arranged as a heatmap by rows_name and other grouping variables. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/features/Fig-S3B-Top-genes-in-CD8-T-cell-sub-clusters.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S3C. Top genes in CD8 T cell sub-clusters": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (GZMB, GNLY, LINC02446, STMN1, CD38, HLA-DRA, CTLA4, CD74, UCP2) across cells, identified by \"cd8_subcluster\". The plot type is 'dim', displaying the features on a dimensional reduction embedding. The reduction used is \"umap\", using dimensions 1,2"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/features/Fig-S3C-Top-genes-in-CD8-T-cell-sub-clusters.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S3D. IFNG in CD8 T cell sub-clusters": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (IFNG) across cells, identified by \"cd8_subcluster\", and split by \"Diagnosis\". The plot type is 'dim', displaying the features on a dimensional reduction embedding. The reduction used is \"umap\", using dimensions 1,2"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/features/Fig-S3D-IFNG-in-CD8-T-cell-sub-clusters.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 3B. Top genes in CD4 T cell sub-clusters": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (IL4I1, IL23R, NR4A1, EGR1, CCL5, ANXA1, S1PR1, KLF2, LINC00402, CCR7, TOX2, DRAIC, IKZF2, FOXP3, GZMH, GZMK, GBP5, GPR25, MKI67, TYMS) across cells, identified by \"cd4_subcluster\". The plot type is 'violin', showing the distribution of feature values by the grouping variables. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/features/Fig-3B-Top-genes-in-CD4-T-cell-sub-clusters.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 3N. FOXP3 expression (Treg sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (FOXP3) across cells, identified by \"treg_subcluster\". The plot type is 'violin', showing the distribution of feature values by the grouping variables. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/features/Fig-3N-FOXP3-expression-Treg-sub-clusters.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 3O. Top genes in Treg sub-clusters": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (IL12RB2, TNFRSF4, CXCR3, TNFRSF18, STAT1, KLF2, LEF1, ITGB1, ZFP36L2, VIM, LGALS1, GPR15, TXNIP, FOSB, IL10, KLRB1, LAG3, IKZF3, GPR25, SLC2A3, CCR4, NEAT1, CD38, CCR7) across cells, identified by \"treg_subcluster\". The plot type is 'heatmap', arranged as a heatmap by rows_name and other grouping variables. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/features/Fig-3O-Top-genes-in-Treg-sub-clusters.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S4A. Top genes in CD4 T cell sub-clusters": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (CEBPD, IL23R, IL4I1, CCR6, TNFSF13B, LGALS3, LINC01871, TNFAIP3, CCL20, TNF, EGR1, NR4A1, JUN, FOSB, GADD45B, FOS, IER2, HSPA1B, HSPA1A, ANXA1, CCL5, VIM, IL7R, CXCR4, PTGER2, HOPX, CAPG, LGALS1, KLF2, SELL, CCR7, S1PR1, RIPOR2, TCF7, LEF1, NOSIP, CD55, C1orf162, PASK, LINC00402, MALAT1, CXCR5, JUNB, TOX, AC012645.3, TBC1D4, MAGEH1, IL6ST, FOXP3, CTLA4, TNFRSF1B, TNFRSF18, BATF, MIR4435-2HG, HLA-DRB1, TNFRSF4, LAG3, GZMK, CCL4, GZMA, GZMH, EOMES, CST7, NKG7, APOBEC3G, TNFSF9, GBP5, CD74, CD38, DUSP4, COTL1, GPR25, STAT1, CXCR6, TYMS, UBE2C, MKI67, STMN1, HMGB2, GNLY, TUBA1B, TUBB, HMGN2, HIST1H4C) across cells, identified by \"cd4_subcluster\". The plot type is 'heatmap', arranged as a heatmap by rows_name and other grouping variables. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/features/Fig-S4A-Top-genes-in-CD4-T-cell-sub-clusters.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S4C. Top genes in CD4 T cell sub-clusters": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (GZMA, GBP5, CD74, CD38, HLA-DRB1, CXCR6, STAT1, DUSP4, GPR25) across cells, identified by \"cd4_subcluster\". The plot type is 'dim', displaying the features on a dimensional reduction embedding. The reduction used is \"umap\", using dimensions 1,2"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/features/Fig-S4C-Top-genes-in-CD4-T-cell-sub-clusters.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S4D. IFNG in CD4 T cell sub-clusters": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (IFNG) across cells, identified by \"cd4_subcluster\", and split by \"Diagnosis\". The plot type is 'dim', displaying the features on a dimensional reduction embedding. The reduction used is \"umap\", using dimensions 1,2"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/features/Fig-S4D-IFNG-in-CD4-T-cell-sub-clusters.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig S4G. FOXP3 in Treg sub-clusters": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (FOXP3) across cells, identified by \"treg_subcluster\". The plot type is 'dim', displaying the features on a dimensional reduction embedding. The reduction used is \"umap\", using dimensions 1,2"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/features/Fig-S4G-FOXP3-in-Treg-sub-clusters.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 5B. T cell checkpoint genes (CD8 sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (CTLA4, PDCD1, LAG3, HAVCR2, TIGIT, CD38) across cells, identified by \"cd8_subcluster\". The plot type is 'violin', showing the distribution of feature values by the grouping variables. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/features/Fig-5B-T-cell-checkpoint-genes-CD8-sub-clusters.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 5C. T cell checkpoint genes (CD8 sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (CTLA4, PDCD1, LAG3, HAVCR2, TIGIT, CD38) across cells, identified by \"cd8_subcluster\". The plot type is 'dim', displaying the features on a dimensional reduction embedding. The reduction used is \"umap\", using dimensions 1,2"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/features/Fig-5C-T-cell-checkpoint-genes-CD8-sub-clusters.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 5F. T cell checkpoint genes (CD4 sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (CTLA4, PDCD1, LAG3, HAVCR2, TIGIT, CD38) across cells, identified by \"cd4_subcluster\". The plot type is 'violin', showing the distribution of feature values by the grouping variables. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/features/Fig-5F-T-cell-checkpoint-genes-CD4-sub-clusters.png"
+          }
+        ]
+      }
+    }
+  },
+  "Fig 5G. T cell checkpoint genes (CD4 sub-clusters)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (CTLA4, PDCD1, LAG3, HAVCR2, TIGIT, CD38) across cells, identified by \"cd4_subcluster\". The plot type is 'dim', displaying the features on a dimensional reduction embedding. The reduction used is \"umap\", using dimensions 1,2"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/cd3-output/SeuratClusterStats/samples_CD3.scRep.cluster_stats/features/Fig-5G-T-cell-checkpoint-genes-CD4-sub-clusters.png"
+          }
+        ]
+      }
+    }
+  }
+}
